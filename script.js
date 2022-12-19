@@ -42,3 +42,13 @@ msgInp.onblur = () => {
         msgText.style = 'top: 20px;';
     }
 }
+
+//language checkbox
+
+engInp.onclick = () => {
+    rusInp.checked = false;
+}
+
+rusInp.onclick = () => {
+    engInp.checked = false;
+}
