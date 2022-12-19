@@ -47,8 +47,10 @@ msgInp.onblur = () => {
 
 engInp.onclick = () => {
     rusInp.checked = false;
+    window.open('english.html', '_self');
 }
 
 rusInp.onclick = () => {
     engInp.checked = false;
+    window.open('index.html', '_self');
 }

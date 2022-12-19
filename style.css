@@ -114,6 +114,11 @@ a {
     display: inline;
 }
 
+.url-checkbox {
+    text-decoration: none;
+    color: black;
+}
+
 /*Form*/
 
 #form-block {
