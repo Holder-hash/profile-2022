@@ -47,12 +47,12 @@ msgInp.onblur = () => {
 
 engInp.onclick = () => {
     rusInp.checked = false;
-    window.open('english.html', '_self');
+    window.open('english/english.html', '_self');
 }
 
 rusInp.onclick = () => {
     engInp.checked = false;
-    window.open('index.html', '_self');
+    window.open('../index.html', '_self');
 }
 
 var sendBtn = document.getElementById('send-btn');
