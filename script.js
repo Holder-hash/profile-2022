@@ -54,3 +54,13 @@ rusInp.onclick = () => {
     engInp.checked = false;
     window.open('index.html', '_self');
 }
+
+var sendBtn = document.getElementById('send-btn');
+
+sendBtn.onmouseover = () => {
+    notWorking.style = 'opacity: 1;';
+}
+
+sendBtn.onmouseout = () => {
+    notWorking.style = 'opacity: 0;';
+}
